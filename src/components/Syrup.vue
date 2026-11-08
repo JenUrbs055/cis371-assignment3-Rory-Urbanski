@@ -12,6 +12,7 @@ const syrupColor = ref(curSyrup);
 
 .syrup {
   transform: translateY(400%);
+  background-color:#c6c6c6;
   background: repeating-linear-gradient(45deg,var(--stripe-color), var(--stripe-color) 10px,#e1cf95 10px, #e1cf95 20px);
   position: relative;
   width: 100%;

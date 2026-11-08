@@ -28,4 +28,6 @@ type Props = {
   isIced: boolean;
 };
 defineProps<Props>();
+
+
 </script>

@@ -1,8 +1,13 @@
 <template>
-  <div class="baseBeverage"></div>
+  <div class="baseBeverage" :style="{'background-color': curColor}"></div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import {ref} from "vue";
+import {curBase} from "../stores/beverage.ts"
+
+const curColor = ref(curBase)
+</script>
 
 <style scoped>
 .baseBeverage {
